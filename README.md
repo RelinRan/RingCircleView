@@ -7,7 +7,7 @@
 # 资源
 |名字|资源|
 |-|-|
-|AAR|[ring_cirvle_view.aar](https://github.com/RelinRan/RingCircleView/blob/master/ring_cirvle_view.aar)|
+|AAR|[ring_circle_view.aar](https://github.com/RelinRan/RingCircleView/blob/master/ring_circle_view.aar)|
 |GitHub |[RingCircleView](https://github.com/RelinRan/RingCircleView)|
 |Gitee|[RingCircleView](https://gitee.com/relin/RingCircleView)|
 # Maven
