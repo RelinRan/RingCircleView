@@ -31,26 +31,32 @@ dependencies {
 ~~~
 # attrs.xml
 ~~~
-<!--裁剪宽度-->
-<attr name="clipWidth" format="dimension" />
-<!--裁剪高度-->
-<attr name="clipHeight" format="dimension" />
-<!--蒙版颜色-->
-<attr name="maskColor" format="color" />
-<!--最大缩放值-->
-<attr name="maxScale" format="float" />
-<!--最小缩放值-->
-<attr name="minScale" format="float" />
-<!--裁剪图形-->
-<attr name="clipShape" format="enum">
-    <enum name="rect" value="0" />
-    <enum name="circle" value="1" />
-    <enum name="round" value="2" />
-</attr>
-<!--矩形圆角大小-->
-<attr name="roundRadius" format="dimension" />
-<!--图片来源-->
-<attr name="clipSrc" format="reference"/>
+<!--圆圈背景宽度-->
+<attr name="ringBackgroundStrokeWidth" format="dimension" />
+<!--圆圈背景宽度-->
+<attr name="ringProgressStrokeWidth" format="dimension" />
+<!--圆圈背景颜色-->
+<attr name="ringBackgroundColor" format="color" />
+<!--圆圈进度颜色-->
+<attr name="ringProgressColor" format="color" />
+<!--圆圈和圆的间距-->
+<attr name="circleRingSpace" format="dimension" />
+<!--圆圈背景宽度-->
+<attr name="circleRadius" format="dimension" />
+<!--圆圈背景颜色-->
+<attr name="circleBackgroundColor" format="color" />
+<!--圆圈文字颜色-->
+<attr name="circleTextColor" format="color" />
+<!--圆圈文字大小-->
+<attr name="circleTextSize" format="dimension" />
+<!--圆圈文字间距-->
+<attr name="circleTextSpace" format="dimension" />
+<!--进度值-->
+<attr name="progress" format="integer" />
+<!--最大值-->
+<attr name="max" format="integer" />
+<!--文字-->
+<attr name="text" format="string" />
 ~~~
 # 使用
 ~~~
