@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆圈背景宽度-->
+    <attr name="ringBackgroundStrokeWidth" format="dimension" />
+    <!--圆圈背景宽度-->
+    <attr name="ringProgressStrokeWidth" format="dimension" />
+    <!--圆圈背景颜色-->
+    <attr name="ringBackgroundColor" format="color" />
+    <!--圆圈进度颜色-->
+    <attr name="ringProgressColor" format="color" />
+    <!--圆圈和圆的间距-->
+    <attr name="circleRingSpace" format="dimension" />
+    <!--圆圈背景宽度-->
+    <attr name="circleRadius" format="dimension" />
+    <!--圆圈背景颜色-->
+    <attr name="circleBackgroundColor" format="color" />
+    <!--圆圈文字颜色-->
+    <attr name="circleTextColor" format="color" />
+    <!--圆圈文字大小-->
+    <attr name="circleTextSize" format="dimension" />
+    <!--圆圈文字间距-->
+    <attr name="circleTextSpace" format="dimension" />
+    <!--进度值-->
+    <attr name="progress" format="integer" />
+    <!--最大值-->
+    <attr name="max" format="integer" />
+    <!--文字-->
+    <attr name="text" format="string" />
+    <!--动画持续时间-->
+    <attr name="duration" format="integer" />
+    <declare-styleable name="RingCircleView">
+        <attr name="ringBackgroundStrokeWidth" />
+        <attr name="ringProgressStrokeWidth" />
+        <attr name="ringBackgroundColor" />
+        <attr name="ringProgressColor" />
+        <attr name="circleRingSpace" />
+        <attr name="circleRadius" />
+        <attr name="circleBackgroundColor" />
+        <attr name="circleTextColor" />
+        <attr name="circleTextSize" />
+        <attr name="circleTextSpace" />
+        <attr name="progress" />
+        <attr name="max" />
+        <attr name="duration" />
+        <attr name="text" />
+    </declare-styleable>
+</resources>
